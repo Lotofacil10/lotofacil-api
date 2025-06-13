@@ -1,0 +1,15 @@
+# Não subir variáveis de ambiente (nunca subir .env)
+.env
+
+# Não subir cache do Python
+__pycache__/
+*.pyc
+
+# Pasta de dependências do Python (caso use)
+venv/
+.env/
+ENV/
+
+# Outros arquivos temporários
+*.log
+.DS_Store
