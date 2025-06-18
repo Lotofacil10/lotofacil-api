@@ -17,7 +17,9 @@ app = FastAPI(
 # CORS para o front em http://localhost:5173
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173"
+    "https://web-production-72054.up.railway.app/api",],
+    
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
